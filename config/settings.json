@@ -1,7 +1,6 @@
 {
   "mail": {
     "from": "fiksbasis@gmail.com",
-    "to": "harunkaradogan@gmail.com",
     "smtp": {
       "host": "smtp.gmail.com",
       "port": 465,

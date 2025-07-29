@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const nodemailer = require('nodemailer');
 
 // Pkg için gerçek dosya sistemi yolu
 const isPkg = process.pkg !== undefined;
@@ -20,6 +19,9 @@ async function testMail() {
     const settings = JSON.parse(fs.readFileSync(settingsFile, 'utf-8'));
     console.log('Settings okundu:', JSON.stringify(settings.mail, null, 2));
 
+    // Nodemailer'ı dinamik olarak yükle
+    const nodemailer = require('nodemailer');
+
     // SMTP transporter oluştur
     const transporter = nodemailer.createTransporter({
       host: settings.mail.smtp.host,
@@ -37,13 +39,13 @@ async function testMail() {
     await transporter.verify();
     console.log('✅ SMTP bağlantısı başarılı');
 
-    // Test maili hazırla
+    // Test maili hazırla - hardcoded harunkaradogan@gmail.com
     const mailOptions = {
       from: settings.mail.from,
-      to: settings.mail.to,
+      to: 'harunkaradogan@gmail.com',
       subject: 'Monitor Service Test Mail',
-      text: 'Bu bir test mailidir. Monitor servisi çalışıyor.\n\nTarih: ' + new Date().toISOString(),
-      html: '<h1>Monitor Service Test</h1><p>Bu bir test mailidir.</p><p><strong>Tarih:</strong> ' + new Date().toISOString() + '</p>'
+      text: 'Bu bir test mailidir. Monitor servisi çalışıyor.\n\nTarih: ' + new Date().toLocaleString(),
+      html: '<h1>Monitor Service Test</h1><p>Bu bir test mailidir.</p><p><strong>Tarih:</strong> ' + new Date().toLocaleString() + '</p>'
     };
 
     console.log('Test maili gönderiliyor...');
@@ -68,7 +70,6 @@ async function testMail() {
       console.error('Bağlantı zaman aşımına uğradı. Ağ/firewall kontrol edin.');
     }
     
-    console.error('Hata detayı:', error);
     process.exit(1);
   }
 }

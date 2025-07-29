@@ -35,7 +35,7 @@ async function sendMail(job, resultMessage) {
 
   const mailOptions = {
     from: settings.mail.from,
-    to: settings.mail.to,
+    to: job.mail.to,
     subject,
     text: body
   };
