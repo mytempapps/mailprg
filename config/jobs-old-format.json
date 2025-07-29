@@ -1,0 +1,23 @@
+{
+  "jobs": [
+    {
+      "id": "job_telnet_vet_3200",
+      "type": "telnet",
+      "host": "192.168.2.14",
+      "port": 3200,
+      "interval_ms": 30000,
+      "mail": {
+        "to": "admin@example.com"
+      }
+    },
+    {
+      "id": "job_ping_google",
+      "type": "ping",
+      "host": "8.8.8.8",
+      "interval_ms": 60000,
+      "mail": {
+        "to": "admin@example.com"
+      }
+    }
+  ]
+}

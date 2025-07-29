@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "IP, telnet ve disk izleme servisi",
   "main": "monitor.js",
+  "bin": "monitor.js",
   "scripts": {
     "start": "node monitor.js",
     "test": "jest"
@@ -13,5 +14,9 @@
   },
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "pkg": {
+    "targets": ["node18-win-x64"],
+    "outputPath": "dist"
   }
 }

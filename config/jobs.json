@@ -1,0 +1,43 @@
+[
+  {
+    "id": "job_telnet_vet_3200",
+    "type": "telnet",
+    "target": {
+      "ip": "192.168.2.14",
+      "port": 3200
+    },
+    "interval_ms": 60000,
+    "mail": {
+      "to": "admin@example.com",
+      "subject": "{system} - Sistem Uyarısı",
+      "body": "Merhaba,\n\n{system} sisteminde bir sorun tespit edildi.\n\nİşlem: {id}\nSistem: {system}\nDurum: Hata oluştu"
+    }
+  },
+  {
+    "id": "job_ping_google",
+    "type": "ping",
+    "target": {
+      "ip": "8.8.8.8"
+    },
+    "interval_ms": 60000,
+    "mail": {
+      "to": "admin@example.com",
+      "subject": "{system} - Sistem Uyarısı",
+      "body": "Merhaba,\n\n{system} sisteminde bir sorun tespit edildi.\n\nİşlem: {id}\nSistem: {system}\nDurum: Hata oluştu"
+    }
+  },
+  {
+    "id": "job_disk_check",
+    "type": "disk",
+    "target": {
+      "path": "C:",
+      "min_free_gb": 5
+    },
+    "interval_ms": 60000,
+    "mail": {
+      "to": "admin@example.com",
+      "subject": "{system} - Sistem Uyarısı",
+      "body": "Merhaba,\n\n{system} sisteminde bir sorun tespit edildi.\n\nİşlem: {id}\nSistem: {system}\nDurum: Hata oluştu"
+    }
+  }
+]

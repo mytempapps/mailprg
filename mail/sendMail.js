@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-const settings = require("../settings.json");
+const settings = require("../config/settings.json");
 const { log } = require("../logger");
 
 function formatTemplate(template, job) {
@@ -23,7 +23,8 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: settings.mail.smtp.user,
     pass: settings.mail.smtp.pass
-  }
+  },
+  tls: settings.mail.smtp.tls || { rejectUnauthorized: true }
 });
 
 async function sendMail(job, resultMessage) {

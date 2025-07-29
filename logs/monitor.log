@@ -1,0 +1,58 @@
+[2025-07-29T10:51:31.237Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T10:51:31.263Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T10:51:32.442Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 2adb3069b0e04-55b6316ddf2sm1635824e87.17 - gsmtp
+[2025-07-29T10:51:32.473Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T11:05:35.145Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T11:05:35.174Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T11:05:35.948Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4588dd2edaasm16992055e9.1 - gsmtp
+[2025-07-29T11:05:35.974Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T11:11:56.021Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T11:11:56.070Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T11:11:56.804Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4588e5e5d86sm20588845e9.30 - gsmtp
+[2025-07-29T11:11:56.909Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T11:15:53.794Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T11:15:53.822Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T11:15:54.507Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b783454d65sm9009180f8f.1 - gsmtp
+[2025-07-29T11:15:54.539Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T11:16:56.951Z] [INFO] [core] Toplam undefined job bulundu.
+[2025-07-29T11:16:56.960Z] [INFO] [core] Jobs dosyası: jobs.json
+[2025-07-29T11:16:56.982Z] [INFO] [core] Settings dosyası: settings.json
+[2025-07-29T11:17:00.760Z] [INFO] [core] Toplam undefined job bulundu.
+[2025-07-29T11:17:00.777Z] [INFO] [core] Jobs dosyası: jobs.json
+[2025-07-29T11:17:00.801Z] [INFO] [core] Settings dosyası: settings.json
+[2025-07-29T11:19:42.038Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T11:19:42.107Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T11:19:42.820Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b78acd884dsm4881942f8f.33 - gsmtp
+[2025-07-29T11:19:42.854Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T11:48:47.570Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T11:48:47.593Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T11:48:48.147Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-458705c4dbdsm200480355e9.25 - gsmtp
+[2025-07-29T11:48:48.177Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T12:34:23.957Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T12:34:23.984Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T12:34:24.636Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4588e5c2232sm26451225e9.13 - gsmtp
+[2025-07-29T12:34:24.673Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T12:39:47.099Z] [INFO] [integration_ping] Ping başarılı → IP: 8.8.8.8
+[2025-07-29T12:39:47.119Z] [ERROR] [integration_telnet] Telnet bağlantısı başarısız → IP: 127.0.0.1, Port: 80, Hata: connect ECONNREFUSED 127.0.0.1:80
+[2025-07-29T12:39:47.934Z] [ERROR] [integration_telnet] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b783a14600sm8759448f8f.75 - gsmtp
+[2025-07-29T12:39:47.943Z] [INFO] [integration_disk] Disk alanı yeterli → /tmp: 917 GB boş (1 GB minimum)
+[2025-07-29T13:22:09.541Z] [ERROR] [test_mail] Mail gönderme hatası: Invalid login: 454-4.7.0 Too many login attempts, please try again later. For more information,
+454-4.7.0 go to
+454 4.7.0  https://support.google.com/mail/answer/7126229 5b1f17b1804b1-4587054f2e6sm196286655e9.12 - gsmtp
+[2025-07-29T13:22:28.693Z] [ERROR] [test_mail] Mail gönderme hatası: Invalid login: 454-4.7.0 Too many login attempts, please try again later. For more information,
+454-4.7.0 go to
+454 4.7.0  https://support.google.com/mail/answer/7126229 5b1f17b1804b1-458705ce781sm196603185e9.31 - gsmtp
+[2025-07-29T14:19:33.969Z] [ERROR] [test_mail] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b7816e3641sm10690144f8f.73 - gsmtp
+[2025-07-29T14:41:18.136Z] [ERROR] [test_mail] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4588e33f8a2sm32439535e9.0 - gsmtp
+[2025-07-29T14:41:40.832Z] [ERROR] [test_mail] Mail gönderme hatası: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4587054f338sm194834795e9.13 - gsmtp

@@ -1,6 +1,35 @@
 const fs = require("fs");
 const path = require("path");
-const settings = require("./settings.json");
+
+// Global settings'i kullan veya varsayılan dosyayı yükle
+let settings;
+if (global.settings) {
+  settings = global.settings;
+} else {
+  try {
+    settings = JSON.parse(fs.readFileSync('./settings.json', 'utf-8'));
+  } catch (error) {
+    settings = {
+      mail: {
+        from: "default@example.com",
+        to: "admin@example.com",
+        smtp: {
+          host: "smtp.gmail.com",
+          port: 465,
+          secure: true,
+          user: "default@example.com",
+          pass: "password"
+        }
+      },
+      logging: {
+        enabled: true,
+        level: "info",
+        log_to_console: true,
+        log_to_file: false
+      }
+    };
+  }
+}
 
 const LOG_LEVELS = { error: 0, warn: 1, info: 2, debug: 3 };
 const levelThreshold = LOG_LEVELS[settings.logging.level] ?? 2;
