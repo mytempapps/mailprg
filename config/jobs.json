@@ -6,9 +6,9 @@
       "ip": "192.168.2.14",
       "port": 3200
     },
-    "interval_ms": 60000,
+    "interval_ms": 30000,
     "mail": {
-      "to": "ismail.karaya@fiksbilisim.com",
+      "to": "harun.karadogan@fiksbilisim.com",
       "subject": "{system} - Sistem Uyarısı",
       "body": "Merhaba,\n\n{system} sisteminde bir sorun tespit edildi.\n\nİşlem: {id}\nSistem: {system}\nDurum: Hata oluştu"
     }
@@ -19,9 +19,9 @@
     "target": {
       "ip": "8.8.8.8"
     },
-    "interval_ms": 60000,
+    "interval_ms": 30000,
     "mail": {
-      "to": "ismail.karaya@fiksbilisim.com",
+      "to": "harun.karadogan@fiksbilisim.com",
       "subject": "{system} - Sistem Uyarısı",
       "body": "Merhaba,\n\n{system} sisteminde bir sorun tespit edildi.\n\nİşlem: {id}\nSistem: {system}\nDurum: Hata oluştu"
     }
@@ -33,9 +33,9 @@
       "path": "C:",
       "min_free_gb": 5
     },
-    "interval_ms": 60000,
+    "interval_ms": 30000,
     "mail": {
-      "to": "ismail.karaya@fiksbilisim.com",
+      "to": "harun.karadogan@fiksbilisim.com",
       "subject": "{system} - Sistem Uyarısı",
       "body": "Merhaba,\n\n{system} sisteminde bir sorun tespit edildi.\n\nİşlem: {id}\nSistem: {system}\nDurum: Hata oluştu"
     }

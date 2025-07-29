@@ -33,7 +33,11 @@ echo "📂 Dağıtım dosyaları kopyalanıyor..."
 
 # Temel dosyaları kopyala
 cp monitor.exe dist/ 2>/dev/null || echo "⚠️  monitor.exe bulunamadı, atlanıyor"
-cp -r config dist/
+
+# Sadece ihtiyacımız olan config dosyalarını kopyala
+mkdir -p dist/config
+cp config/jobs.json dist/config/
+cp config/settings.json dist/config/
 cp *.bat dist/
 cp *.md dist/
 cp package.json dist/
