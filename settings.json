@@ -1,0 +1,28 @@
+{
+  "mail": {
+    "from": "felecebasis@gmail.com",
+    "to": "husnu.sahin@felece.com",
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "user": "felecebasis@gmail.com",
+      "pass": "uygulama_sifre"
+    }
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "log_to_console": true,
+    "log_to_file": true,
+    "file_path": "logs/monitor.log",
+    "max_file_size_mb": 5,
+    "max_backup_files": 3,
+    "format": "[{timestamp}] [{level}] [{job}] {message}"
+  },
+
+  "retry": {
+    "mailCooldownMinutes": 30
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "jobs": [
+    {
+      "id": "job_telnet_vet_3200",
+      "system": "VET",
+      "type": "telnet",
+      "interval_ms": 3000,
+      "target": {
+        "ip": "192.168.2.14",
+        "port": 3200
+      },
+      "mail": {
+        "subject": "Telnet Uyarısı - {system} - {ip}:{port}",
+        "body": "❌ Telnet bağlantısı kurulamadı.\nSistem: {system}\nIP: {ip}\nPort: {port}\nJob ID: {id}"
+      }
+    },
+    {
+      "id": "job_ping_vet",
+      "system": "VET",
+      "type": "ping",
+      "interval_ms": 3000,
+      "target": {
+        "ip": "192.168.2.14"
+      },
+      "mail": {
+        "subject": "Ping Uyarısı - {system} - {ip}",
+        "body": "❌ Ping başarısız.\nSistem: {system}\nIP: {ip}\nJob ID: {id}"
+      }
+    },
+    {
+      "id": "job_telnet_vet_3600",
+      "system": "VET",
+      "type": "telnet",
+      "interval_ms": 3000,
+      "target": {
+        "ip": "192.168.2.14",
+        "port": 3600
+      },
+      "mail": {
+        "subject": "Telnet Uyarısı - {system} - {ip}:{port}",
+        "body": "❌ Telnet bağlantısı kurulamadı.\nSistem: {system}\nIP: {ip}\nPort: {port}\nJob ID: {id}"
+      }
+    },
+    {
+      "id": "job_disk_c_azalan",
+      "system": "VET",
+      "type": "disk",
+      "interval_ms": 60000,
+      "target": {
+        "path": "C:\\",
+        "min_free_gb": 10
+      },
+      "mail": {
+        "subject": "Disk Uyarısı - {system} - {path}",
+        "body": "❌ Disk alanı kritik seviyede.\nSistem: {system}\nDisk: {path}\nGerekli Min: {min_free_gb} GB\nJob ID: {id}"
+      }
+    }
+  ]
+}
